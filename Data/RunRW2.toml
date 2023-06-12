@@ -1,0 +1,22 @@
+# Parameters for learning to discriminate compound stimuli
+max_num_thrds = 1
+nsd = 10
+ncs = 10
+mn1 = 1
+mx1 = 2
+mn2 = 1
+mx2 = 10
+atyp = 1      # Rescorla-Wagner agent
+nrepl = 100
+T = 1000
+sdR = 0.10    # sd of reward random variation
+sdx = 0.25    # sd of variation in x for first stimulus dimension
+w0 = 0.0
+alph0 = 0.04
+omega = 5.0
+gam_a = 0.01  # not used for this case
+gam_s = 1.00  # not used for this case
+mu = 0.10     # not used for this case
+tau = 500.0   # not used for this case
+CSName = "CompStim2.csv"
+h5OutName = "RunRW2.h5"
